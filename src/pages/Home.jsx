@@ -53,25 +53,26 @@ const Home = () => {
               <a href="/Doctors">Request an Appointment</a>
             </button>
             <div className="mt-4 md:mt-6">
-              <ul className="flex">
-                <li className="mx-4 md:mx-6 font-bold text-xl md:text-3xl">
-                  30+{' '}
-                </li>
-                <li className="mx-4 md:mx-6 font-bold text-xl md:text-3xl">
-                  15+{' '}
-                </li>
-                <li className="mx-4 md:mx-6 font-bold text-xl md:text-3xl">
+              <div className="flex">
+                <div> 
+                <p className="mx-4 md:mx-6 font-bold text-xl md:text-3xl">
+                  30+{' '}</p>
+                  <p className='text-center mx-2 md:mx-4 lg:mx-6 mb-2 md:mb-0'>Years of Experience</p>
+                  </div>
+                  <div> 
+                <p className="mx-4 md:mx-6 font-bold text-xl md:text-3xl">
+                  15+{' '}</p>
+                  <p className='text-center mx-2 md:mx-4 lg:mx-6 mb-2 md:mb-0'>Clinical Location</p>
+                </div>
+                <div> 
+                <p className="mx-4 md:mx-6 font-bold text-xl md:text-3xl">
                   100+
-                </li>
-              </ul>
+                </p>
+                <p className='text-center mx-2 md:mx-4 lg:mx-6 mb-2 md:mb-0'>Patient Satisfaction</p></div>
+              </div>
             </div>
-            <div className="mt-4 md:mt-6">
-              <ul className="flex">
-                <li className="mx-2 md:mx-4">Years of Experience </li>
-                <li className="mx-2 md:mx-4">Clinical Location </li>
-                <li className="mx-6 md:mx-12">Patient Satisfaction</li>
-              </ul>
-            </div>
+            
+
           </div>
 
     <div className='md:w-1/2 flex justify-center mt-[3rem]'> 
