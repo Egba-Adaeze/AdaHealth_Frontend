@@ -107,17 +107,17 @@ function Home() {
             </div>
           </div>
 
-          <div className="md:w-1/2 flex justify-center mt-[3rem]">
-            <img
-              src={Doctor2}
-              alt=""
-              className="w-[20rem] h-[55vh] mx-[1rem] h-auto md:w-[55vh]"
-            />
-            <span className="grid mx-[2rem] w-[10rem]">
-              <img src={doctor2} alt="" />
-              <img src={doctor3} alt="" className="mt-[1rem]" />
-            </span>
-          </div>
+          <div className="md:w-1/2 flex justify-center mt-3rem">
+      <img
+        src={Doctor2}
+        alt=""
+        className="md:w-80 h-[55vh] mx-1rem h-auto md:m-4 lg:m-6"
+      />
+      {/* <div className="grid mx-2rem w-40 md:w-20rem">
+        <img src={doctor2} alt="" />
+        <img src={doctor3} alt="" className="mt-1rem" />
+      </div> */}
+    </div>
         </div>
         <div className="text-2xl md:text-4xl mt-6 md:mt-12 text-center font-bold">
           Providing the best medical Services

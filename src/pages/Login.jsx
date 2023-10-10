@@ -28,7 +28,7 @@ const Login = () => {
 
     try {
       await axios
-        .post("http://localhost:8000/api/user/login", data)
+        .post("https://adahealth.netlify.app/api/user/login", data)
         .then((res) => {
           console.log(res.data);
           
