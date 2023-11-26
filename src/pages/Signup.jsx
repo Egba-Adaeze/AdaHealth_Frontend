@@ -26,7 +26,7 @@ export default function Signup() {
     // setLoading(true);
     try {
       await axios
-        .post("http://localhost:8000/api/user/register", inputs)
+        .post(import.meta.ENV.VITE_API_ENDPOINT+"/api/user/register", inputs)
         .then((res) => {
           console.log(res.data);
           navigate("/login");

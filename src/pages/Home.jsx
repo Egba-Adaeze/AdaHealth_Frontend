@@ -6,6 +6,7 @@ import icon01 from '../../src/assets/Images/icon01.png';
 import icon02 from '../../src/assets/Images/icon02.png';
 import icon03 from '../../src/assets/Images/icon03.png';
 import Doctors from './Doctors/Doctors.jsx';
+import { Link } from 'react-router-dom';
 
 function Home() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -46,13 +47,13 @@ function Home() {
         <ul
           className={`${
             isMenuOpen ? 'block' : 'hidden'
-          } lg:flex space-x-[50px] text-blue-500 font-semibold`}
+          } lg:flex lg:space-x-[50px] text-blue-500 font-semibold`}
         >
           <li>
             <a href="/">Home</a>
           </li>
           <li>
-            <a href="/Doctors">Find a doctor</a>
+            <Link to="/Doctors">Find a doctor</Link>
           </li>
           <li>
             <a href="/Notifications">Notifications</a>
